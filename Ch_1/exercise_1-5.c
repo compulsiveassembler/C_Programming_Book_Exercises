@@ -5,7 +5,7 @@ int main(int argc, char* args[])
 
     
     
-    printf("%3s, %6s\n","F","C"); //prints header for table, F is first since 
+    printf("%3s %6s\n","F","C"); //prints header for table, F is first since 
                                   //we are converting fahr to celsius
 
     for(int fahr = 300; fahr >= 0; fahr = fahr - 20)
